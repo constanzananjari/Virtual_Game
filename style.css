@@ -1,0 +1,404 @@
+#navbar{
+    background: rgb(32, 112, 150);
+    height: 120px;
+}
+
+.footer{
+    text-align: center;
+    background-color: rgba(32, 113, 150);
+    justify-content: space-around;
+}
+
+.color{
+    background: rgb(32, 112, 150);
+}
+
+.container-titulo{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.imagen-carrusel{
+    width: 500px;
+    height: 500px;
+}
+
+.contenedor-texto{
+    padding: 100px;
+}
+
+.texto-carrusel{
+    color: white;
+    font-size: 30px;
+}
+
+.carrusel-contenido{
+    background: rgb(61, 62, 63);
+    height: 500px;
+}
+
+.container-card2{
+    margin-top: 20px;
+}
+
+.div-container{
+    justify-content: space-around;
+}
+
+.pie-carta{
+    justify-content: space-around;
+}
+
+.text-pie{
+    margin-top: 10px;
+}
+
+.border-form{
+    border: solid 1px gray;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.texto-card{
+    color: white;
+}
+
+.ft{
+    color: white;
+}
+
+
+.seccion-formulario{
+    background-image: url("https://wallpaperaccess.com/full/40619.jpg");
+    padding-bottom: 20px;
+}
+
+.texto-white{
+    color: white;
+}
+
+.text-footer{
+    justify-content: space-around;
+}
+
+.videos-titulo{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.ft-text{
+    padding-top: 12px;
+}
+
+.titulo-rating{
+    justify-content: center;
+    text-align: center;
+}
+
+.estrellas{
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.star{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.tamaño-texto{
+    font-size: 16px;
+}
+
+.tamaño-imagen-card{
+    height: 270px;
+}
+
+.Boton-buscar{
+    margin-left: 5px;
+    width: 80px;
+    height: 40px;
+    border: solid 1px rgb(21, 207, 67);
+    border-radius: 5px 5px 5px 5px;
+    background-color: transparent;
+    color: rgb(21, 207, 67);
+}
+
+.Boton-buscar:active{
+    background-color: rgb(4, 129, 35);
+}
+
+.Boton-buscar:focus{
+    outline: none;
+}
+
+.Boton-Comprar{
+    margin-top: 15px;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: rgb(21, 207, 67);
+    border-style: none;
+    color: white;
+}
+
+.Boton-Comprar:active{
+    margin-top: 15px;
+    background-color: rgb(4, 129, 35);
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: -0.03em -0.03em 2px 4px rgba(0, 255, 64, 0.623);
+}
+
+.Boton-Comprar:focus{
+    outline: none;
+}
+
+.Boton-Despliegue{
+    margin-top: 15px;
+    width: 100px;
+    height: 40px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: rgb(95, 95, 95);
+    border-style: none;
+    color: white;
+}
+
+.Boton-Despliegue:active{
+    margin-top: 15px;
+    background-color: rgb(83, 83, 83);
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: -0.03em -0.03em 2px 4px rgba(95, 95, 95, 0.623);
+}
+
+.Boton-Despliegue:focus{
+    outline: none;
+}
+
+.trailers{
+    display: flex;
+}
+
+.video2{
+    margin: 0px 40px 0px 40px;
+}
+
+
+@media (max-width: 990px){
+    
+    .carrusel-contenido{
+        display: block; 
+    }
+    .imagen-carrusel{
+        height: 400px;
+        width: 40%;
+    }
+    .contenedor-texto{
+        padding: 50px;
+    }
+    .carrusel-contenido{
+        height: 400px;
+    }
+    .texto-carrusel{
+        font-size: 25px;
+    }
+    .tamaño-imagen-card{
+        height: 200px;
+    }
+    .tamaño-texto{
+        font-size: 14px;
+    }
+    .texto-boton{
+        font-size: 14px;
+    }
+    .contenedor-pie-carta{
+        display: block;
+    }
+    .text-pie{
+        text-align: center;
+        margin: auto;
+    }
+    .tamaño-video{
+        width: 260px;
+        height: 180px;
+    }
+    .titulo-rating{
+        font-size: 18px;
+    }
+    .star{
+        margin: auto;
+        width: 50px;
+        height: 50px;
+    }
+    .seccion-formulario{
+        background-size: 1500px 1000px;
+    }
+}
+
+@media (max-width: 850px){
+    .icono{
+        width: 100px;
+        height: 50px;
+        animation: rotacion 4s linear infinite; /* 4s es la duración de la animación, puedes ajustarla según tu preferencia */          
+    }
+    @keyframes rotacion {
+        0% {
+            transform: rotate(0deg); /* Ángulo de rotación inicial */
+        }
+        100% {
+            transform: rotate(360deg); /* Ángulo de rotación final */
+        }
+    }
+
+
+}
+
+.icono{
+    animation: rotacion 5s linear infinite; /* 5s es la duración de la animación, puedes ajustarla según tu preferencia */          
+}
+@keyframes rotacion {
+    0% {
+        transform: rotate(0deg); /* Ángulo de rotación inicial */
+    }
+    100% {
+        transform: rotate(360deg); /* Ángulo de rotación final */
+    }
+}    
+
+
+@media (max-width: 750px){
+    .imagen-carrusel{
+        height: 350px;
+        width: 40%;
+    }
+    .contenedor-texto{
+        padding: 50px;
+    }
+    .carrusel-contenido{
+        height: 350px;
+    }
+    .texto-carrusel{
+        font-size: 18px;
+    }
+    .tamaño-imagen-card{
+        height: 150px;
+    }
+    .tamaño-texto{
+        font-size: 12px;
+    }
+    .Boton-Comprar{
+        width: 70px;
+    }
+    .Boton-Despliegue{
+        width: 70px;
+    }
+    .tamaño-video{
+        width: 200px;
+        height: 140px;
+    }
+    .titulo-rating{
+        font-size: 16px;
+    }
+    .star{
+        width: 40px;
+        height: 40px;
+    }
+    .seccion-formulario{
+        background-size: 1300px 1000px;
+    }
+    .ft-text{
+        font-size: 12px;
+    }
+    .Boton-buscar{
+        width: 70px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 650px){
+    .imagen-carrusel{
+        height: 250px;
+        width: 40%;
+    }
+    .carrusel-contenido{
+        height: 250px;
+    }
+    .texto-carrusel{
+        font-size: 15px;
+    }
+    .trailers{
+        display: flexbox;
+    }
+    .tamaño-video{
+        width: 400px;
+        height: 200px;
+    }
+    .video1{
+        margin-left: 60px;
+    }
+    .video2{
+        margin-top: 220px;
+        margin-left: -400px;
+    }
+    .video3{
+        margin-top: 440px;
+        margin-left: -440px;
+    }
+    .seccion-formulario{
+        background-size: 1000px 800px;
+    }
+
+    .icono{
+        margin-left: 200px;
+        animation: rotacion 4s linear infinite; /* 4s es la duración de la animación, puedes ajustarla según tu preferencia */          
+    }
+
+    @keyframes rotacion {
+        0% {
+            transform: rotate(0deg); /* Ángulo de rotación inicial */
+        }
+        100% {
+            transform: rotate(360deg); /* Ángulo de rotación final */
+        }
+    }
+
+
+    .Boton-Comprar{
+        width: 60px;
+        height: 30px;
+    }
+    .Boton-Despliegue{
+        width: 60px;
+        height: 30px;
+    }
+    .texto-boton{
+        font-size: 10px;
+    }
+}
+@media (max-width: 575px){
+    .tamaño-texto{
+        font-size: 15px;
+    }
+    .Boton-Comprar{
+        margin-left: 100px;
+        width: 120px;
+        height: 50px;
+    }
+    .Boton-Despliegue{
+        width: 120px;
+        height: 50px;
+    }
+    .tamaño-imagen-card{
+        height: 300px;
+    }
+    .icono-footer{
+        width: 70px;
+        height: 30px;
+    }
+    .link-social{
+        width: 30px;
+        height: 30px;
+    }
+}
