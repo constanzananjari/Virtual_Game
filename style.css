@@ -1,11 +1,13 @@
 #navbar{
     background: rgb(19, 58, 104);
     height: 120px;
+    justify-content: left;
 }
 
 #navbar2{
-    background: rgb(41, 151, 194);
-    height: 120px;
+    background: rgb(19, 58, 104);
+    height: 110px;
+    justify-content: center;
 }
 
 .footer{
@@ -263,6 +265,8 @@
 .icono{
     /* animation: rotacion 5s linear infinite;  5s es la duración de la animación, puedes ajustarla según tu preferencia */          
 }
+
+
 @keyframes rotacion {
     0% {
         transform: rotate(0deg); /* Ángulo de rotación inicial */
